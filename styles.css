@@ -1,0 +1,73 @@
+:root{
+    --main-bg-color: #f3f3f3;
+    --main-text-color: #171717;
+    --main-text-selection-bg-color: #252525;
+    --main-text-selection-color: #f4f4f4;
+    --main-a-color: #555555;
+    --main-a-hover-color: #cccccc;
+    --main-resume-color: #eea302;
+    --main-projects-color: #ff3b25;
+    --main-contact-color: #80d8da;
+}
+body{
+    background-color: var(--main-bg-color);
+    color: var(--main-text-color);
+    font-family: 'Maven Pro', sans-serif;
+}
+p::selection, h2::selection, h4::selection, span::selection, h5::selection, strong::selection{
+    color: var(--main-text-selection-color);
+    background-color: var(--main-text-selection-bg-color);
+}
+h1{
+    font-family: 'Corinthia', cursive;
+    font-size: 5.9vw;
+    letter-spacing: -0.125rem;
+}
+a{
+    color: var(--main-a-color);
+    text-decoration: none;
+    padding: 2px;
+}
+a:hover{
+    color: var(--main-a-hover-color);
+    text-decoration: none;
+}
+.resume-link{
+    color: var(--main-resume-color);
+}
+.projects-link{
+    color: var(--main-projects-color);
+}
+.contact-link{
+    color: var(--main-contact-color);
+}
+.resources-link{
+    text-align: center;
+    display: block;
+    position: relative;
+    margin: auto;
+}
+.main-image{
+    width: 70%;
+    height: auto;
+    overflow: hidden;
+    background-color: var(--main-contact-color);
+}
+.main-section {
+    padding: 7% 15%;
+}
+.resume{
+    font-size: 2.4rem;
+}
+.main-area-content{
+    padding: 7px;
+}
+.short-hr{
+    margin: 5px auto;
+    width: 35vw;
+    height: 1px;
+}
+.project-image{
+    max-width: 35vw !important;
+    height: auto;
+}
